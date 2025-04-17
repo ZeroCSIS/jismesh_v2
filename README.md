@@ -1,6 +1,7 @@
 A fork of hni14/jismesh, updated to return relative latitude/longitude position (multipliers) along with the mesh code from the to_meshcode function.
 Here is an example case of usage:
 
+```
 import jismesh.utils as ju
 import numpy as np
 
@@ -20,3 +21,4 @@ print(f"Lon Multipliers: {np.round(lon_mults, 3)}")
 # Meshcodes: [53393599 53394681]
 # Lat Multipliers: [0.903 0.748]
 # Lon Multipliers: [0.443 0.055]
+```
